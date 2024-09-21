@@ -1,0 +1,67 @@
+.item {
+  width: max(31.6vw, 350px);
+  margin: 0;
+  margin-top: 30px;
+  background-color: #111111;
+  padding: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  float: left;
+}
+
+.item h3 {
+  font-size: 25px;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.repoItem {
+  border-radius: 15px;
+  background-color: #222222;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.repoItem a {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-decoration-line: none;
+  display: block;
+  color: rgb(255,255,255);
+}
+
+.repoItemAuthor {
+  height: 20px;
+  background-color: #333333;
+  padding: 5px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.repoItemAuthor img {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.repoItemAuthor a {
+  color: #777777;
+  margin-left: 10px;
+  text-decoration-line: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 100%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.repoItem p {
+  color: #777777;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.middle_item {margin-left: 1vw;}

@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
     <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
         <title>SEON06-Pages</title>
-        <link href="css/main.css" rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="css/font.css"/>
+        <link type="text/css" rel="stylesheet" href="css/main.css" media="not screen and (max-width: 600px)" />
+        <link type="text/css" rel="stylesheet" href="css/mainmenu.css" media="not screen and (max-width: 600px)" />
+        <link type="text/css" rel="stylesheet" href="css/mobile/main.css" media="only screen and (max-width: 600px)" />
+        <link type="text/css" rel="stylesheet" href="css/mobile/mainmenu.css" media="only screen and (max-width: 600px)" />
     </head>
     <body>
-        <div class="title">
-            <h1>SEON06 - Git Pages</h1>
+        <div class="center">
+            <div class="title">
+                <h1>SEON06</h1>
+                <h3>GitHub Pages</h3>
+            </div>
         </div>
+        
+        <div class="item">
+            <h3>GitHub Repo</h3>
+            <div id="repo_list"></div>
+        </div>
+
+        <div class="item middle_item">
+            <h3>윤선의 개인 홈페이지로 가기</h3>
+        </div>
+
+        
+
+        <script src="js/main.js"></script>
+        <script src="js/loadRepo.js"></script>
+        <script>loadRepo();</script>
     </body>
 </html>
