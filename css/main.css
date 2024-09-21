@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "bold8";
+    src: url("font/Paperlogy-8ExtraBold.ttf") format("truetype");
+    font-weight: normal;
+}
+
+html, body {
+    background-color: rgb(0,0,0);
+    color: rgB(255, 255, 255);
+    font-family: "bold8";
+}
+
+.title {
+    text-align: center;
+}
